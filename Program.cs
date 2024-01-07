@@ -37,7 +37,6 @@ class Program
         // StateSINI transitions declaration 
         stateSINI.transitions['i'] = new StateFunction(stateSINI, 'i', StripMovement.RIGHT);
         stateSINI.transitions['m'] = new StateFunction(stateSINI, 'i', StripMovement.RIGHT); 
-        stateSINI.transitions['t'] = new StateFunction(stateSINI, 'i', StripMovement.RIGHT); 
         stateSINI.transitions['b'] = new StateFunction(stateSINI, 'i', StripMovement.RIGHT);
         stateSINI.transitions['p'] = new StateFunction(stateSINT, 'i', StripMovement.RIGHT); 
         stateSINI.transitions['a'] = new StateFunction(stateSB, 'i', StripMovement.RIGHT);
@@ -45,8 +44,7 @@ class Program
         
         // StateSINT transitions declaration 
         stateSINT.transitions['i'] = new StateFunction(stateSINI, 'm', StripMovement.LEFT);
-        stateSINT.transitions['m'] = new StateFunction(stateSINI, 'm', StripMovement.RIGHT); 
-        stateSINT.transitions['t'] = new StateFunction(stateSINI, 'm', StripMovement.LEFT); 
+        stateSINT.transitions['m'] = new StateFunction(stateSINT, 'm', StripMovement.RIGHT); 
         stateSINT.transitions['b'] = new StateFunction(stateSINI, 'm', StripMovement.RIGHT);
         stateSINT.transitions['p'] = new StateFunction(stateSB, 'm', StripMovement.RIGHT); 
         stateSINT.transitions['a'] = new StateFunction(stateSINT, 'm', StripMovement.RIGHT);
@@ -54,18 +52,16 @@ class Program
 
         // StateST transitions declaration 
         stateST.transitions['i'] = new StateFunction(stateSINI, 't', StripMovement.RIGHT);
-        stateST.transitions['m'] = new StateFunction(stateSINI, 't', StripMovement.LEFT); 
-        stateST.transitions['t'] = new StateFunction(stateSINI, 't', StripMovement.LEFT); 
-        stateST.transitions['b'] = new StateFunction(stateSINI, 't', StripMovement.RIGHT);
+        stateST.transitions['m'] = new StateFunction(stateSINT, 't', StripMovement.LEFT); 
+        stateST.transitions['b'] = new StateFunction(stateST, 't', StripMovement.RIGHT);
         stateST.transitions['p'] = new StateFunction(stateSB, 't', StripMovement.RIGHT); 
         stateST.transitions['a'] = new StateFunction(stateSB, 't', StripMovement.RIGHT);
         stateST.transitions['t'] = new StateFunction(stateSINT, 't', StripMovement.RIGHT);
         
         // StateSINT transitions declaration 
-        stateSB.transitions['i'] = new StateFunction(stateSINI, 'b', StripMovement.RIGHT);
-        stateSB.transitions['m'] = new StateFunction(stateSINI, 'b', StripMovement.LEFT); 
-        stateSB.transitions['t'] = new StateFunction(stateSINI, 'b', StripMovement.LEFT); 
-        stateSB.transitions['b'] = new StateFunction(stateSINI, 'b', StripMovement.LEFT);
+        stateSB.transitions['i'] = new StateFunction(stateSINT, 'b', StripMovement.RIGHT);
+        stateSB.transitions['m'] = new StateFunction(stateSB, 'b', StripMovement.LEFT); 
+        stateSB.transitions['b'] = new StateFunction(stateSINT, 'b', StripMovement.LEFT);
         stateSB.transitions['p'] = new StateFunction(stateST, 'b', StripMovement.RIGHT); 
         stateSB.transitions['a'] = new StateFunction(stateSINT, 'b', StripMovement.RIGHT);
         stateSB.transitions['t'] = new StateFunction(stateSINT, 'b', StripMovement.RIGHT);
