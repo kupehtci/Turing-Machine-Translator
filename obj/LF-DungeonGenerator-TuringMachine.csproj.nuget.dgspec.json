@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/CHESHIRE/REPO/LF-DungeonGenerator-TuringMachine/LF-DungeonGenerator-TuringMachine.csproj": {}
+  },
+  "projects": {
+    "/Volumes/CHESHIRE/REPO/LF-DungeonGenerator-TuringMachine/LF-DungeonGenerator-TuringMachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/CHESHIRE/REPO/LF-DungeonGenerator-TuringMachine/LF-DungeonGenerator-TuringMachine.csproj",
+        "projectName": "LF-DungeonGenerator-TuringMachine",
+        "projectPath": "/Volumes/CHESHIRE/REPO/LF-DungeonGenerator-TuringMachine/LF-DungeonGenerator-TuringMachine.csproj",
+        "packagesPath": "/Users/dlaplana/.nuget/packages/",
+        "outputPath": "/Volumes/CHESHIRE/REPO/LF-DungeonGenerator-TuringMachine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dlaplana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

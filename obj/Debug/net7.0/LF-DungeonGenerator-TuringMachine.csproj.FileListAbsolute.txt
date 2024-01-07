@@ -1,0 +1,15 @@
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/bin/Debug/net7.0/LF-DungeonGenerator-TuringMachine
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/bin/Debug/net7.0/LF-DungeonGenerator-TuringMachine.deps.json
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/bin/Debug/net7.0/LF-DungeonGenerator-TuringMachine.runtimeconfig.json
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/bin/Debug/net7.0/LF-DungeonGenerator-TuringMachine.dll
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/bin/Debug/net7.0/LF-DungeonGenerator-TuringMachine.pdb
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.csproj.AssemblyReference.cache
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.AssemblyInfoInputs.cache
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.AssemblyInfo.cs
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.csproj.CoreCompileInputs.cache
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.dll
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/refint/LF-DungeonGenerator-TuringMachine.dll
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.pdb
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/LF-DungeonGenerator-TuringMachine.genruntimeconfig.cache
+/Volumes/CHESHIRE/SVIT_REPO/LF-DungeonGenerator-TuringMachine/obj/Debug/net7.0/ref/LF-DungeonGenerator-TuringMachine.dll
